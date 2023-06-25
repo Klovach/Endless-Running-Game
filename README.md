@@ -1,5 +1,3 @@
-![Game Screenshot](https://github.com/Klovach/Endless-Running-Game/assets/113477921/d97a9c7f-8473-4056-9bf9-221e2c567be4)
-
 # Endless Running Game
 
 Welcome to the Endless Running Game. This is a simple web browser game, designed for both mobile and desktop devices.

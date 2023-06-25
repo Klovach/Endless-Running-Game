@@ -1,0 +1,189 @@
+/*ROUGH DRAFT - ITERATION 1*/
+/*This is the style sheet for the game.*/
+body{
+    background-color: #152227;
+}
+.header{
+    align-items: center; 
+    text-align: center; 
+    padding: 45px 70px 0px 70px;
+    color: white; 
+}
+
+#container{
+    background: url('../images/backgrounds/GameBackdrop.gif') center no-repeat;
+    position: relative;  
+}
+
+#container::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+#game{
+    width: 768px;
+    height: 384px;
+    margin: auto;
+}
+
+#score{
+    color: white;
+    font-size: 24px;
+    z-index: 1;
+}
+
+.menu{
+    align-items: center; 
+    text-align: center; 
+    padding: 28px;
+}
+
+/* LOSE */
+#lose-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 2;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+  
+  #lose-popup.hidden {
+    opacity: 0;
+  }
+
+  #lose-popup h2 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+  }
+
+/*BUTTONS*/
+/* Common button styles */
+  /* Play button styles */
+  #start-button {
+    width: 140px;
+    height: 40px;
+    margin: 10px;
+  }
+  
+  /* Stop button styles */
+  #stop-button {
+    width: 140px;
+    height: 40px;
+    margin: 10px;
+  }
+
+/* PLAYER CHARACTER */
+
+#character{
+    width: 100px;
+    height: 102px;
+    left: 50px;
+    position: relative;
+    top: 250px; /* This should be height - width */
+    z-index: 1;
+}
+
+#character img{
+    width: 102px;
+    height: 102px;
+}
+
+/* Key Frame Animation:
+This is an animation responsible for the character's jump.*/
+@keyframes jump {
+    0% {
+        top: 150px;
+    }
+    10% {
+        top: 110px;
+    }
+    20% {
+        top: 90px;
+    }
+    30% {
+        top: 70px;
+    }
+    40% {
+        top: 55px;
+    }
+    50% {
+        top: 50px;
+    }
+    60% {
+        top: 55px;
+    }
+    70% {
+        top: 70px;
+    }
+    80% {
+        top: 90px;
+    }
+    90% {
+        top: 110px;
+    }
+    100% {
+        top: 250px;
+    }
+
+    110% {
+        top: 102px;
+    }
+}
+
+/* Animate Class
+/*This class is responsible for the application of the jump.*/
+.animate-jump{
+    animation: jump 450ms linear;
+}
+
+/* OBSTACLE */
+
+#obstacle{
+    width: 150px;
+    height: 63px;
+    position: relative;
+    top: 190px; /* This should be the height of the game - chararacter height - block height */
+    left: 616px; /* This should be the width of the game minus the block width. */
+    z-index: 1;
+}
+
+#collision-box {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 10px; 
+    height: 10px; 
+    /* background-color: rgb(255, 0, 0); - Visual representation for testing */
+  }
+
+.animate-obstacle{
+    animation: obstacle 1.5s linear infinite;
+}
+
+#obstacle img{
+    width: 150px;
+    height: 63px;
+}
+
+@keyframes obstacle{
+    0%{
+        left: 616px;
+    }
+    100%{
+        left: -1px;
+    }
+}

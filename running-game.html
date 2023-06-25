@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Run and Jump</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="\css\rg-styles.css">
+</head>
+<body>
+    <!-- HEADING INFORMATION -->
+    <div class="header">
+    <h1>RUN AND JUMP</h1>
+    <p>Click play to start and click or tap the screen to jump! This game is in its
+    "bare bones" stage and will be undergoing incremental developments.</p>
+    </div>
+
+    <!-- GAME CONTAINER -->
+    <div id="container">
+    <div id="game">
+                
+    <!-- PLAYER CHARACTER -->
+        <div id="character">
+        <img src="images/sprites/player.gif" alt="player">
+        </div>
+
+    <!-- OBSTACLE -->
+    <!-- Note: The next iteration will be focused on bettering the collision
+    box and adding different items the player may collide with, including
+    collectibles and an item that allows the player to "beat the game"-->
+        <div id="obstacle">
+        <div id="collision-box"></div>
+        <img src="images/sprites/obstacle.gif" alt="obstacle">
+        </div>
+
+    <!-- POPUP MESSAGES -->
+    <!-- Note: The next iteration will be focused on re-using the popup window
+    to display different messages. Specifically, a win or "you ended the game"
+    message. -->
+        <div id="lose-popup">
+            <h2>YOU LOSE</h2>
+            <p>HIGH SCORE: <span id="high-score">0</span></p>
+        </div>
+
+    </div>
+    </div>
+     <!-- END GAME CONTAINER -->
+
+    <!-- MAIN MENU -->
+    <div class="menu">
+        <p id="score">SCORE: 0</p>
+        <button type="button" class="btn btn-outline-success" id="start-button">Play</button>
+        <button type="button" class="btn btn-outline-danger" id="stop-button">End Game</button>
+    </div>
+
+<script src="\js\rg-script.js"></script>
+</body>
+</html>
+
+<!-- ATTRIBUTIONS:
+The first iteration of this project includes graphics that are not my own, which
+I have resized and altered to suit this project's dimensions and characteristics, to serve
+as reference models. These graphics will be replaced with my own, with graphics I 
+have purchased, or with royalty-free/public domain assets. 
+These graphics are by the following artists. 
+PLAYER SPRITE BY MELISSA LAM:
+https://melissalam.artstation.com/projects/e0JnxZ
+ENEMY SPRITE BY ALINE COSTA: https://alinecosta.artstation.com/albums/601853
+PARALLAX BACKGROUND BY FELLFELINE: https://www.deviantart.com/fellfeline/gallery
+-->

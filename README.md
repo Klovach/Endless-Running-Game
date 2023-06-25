@@ -1,6 +1,6 @@
-# Endless Running Game
+![Game Screenshot](https://github.com/Klovach/Endless-Running-Game/assets/113477921/d97a9c7f-8473-4056-9bf9-221e2c567be4)
 
-![Game Screenshot](Coming Soon)
+# Endless Running Game
 
 Welcome to the Endless Running Game. This is a simple web browser game, designed for both mobile and desktop devices.
 The intention is to control a player character, which runs in place, and jump to avoid running obstacles and collect power-ups or other collectibles.
@@ -10,9 +10,14 @@ This is the first iteration of the project. If you would like to keep track of t
 In this project, the study objectives are to learn how to implement basic game mechanics, keep track of scoring and progression, and most of all, collision detection
 all while using JavaScript, HTML, and CSS.
 
+## Project Objectives
+Iteration 1 - Introduce a player sprite, an enemy sprite, a parallax background, and a basic menu. Ensure the player can jump and that the player can start and end the game at will.
+Iteration 2 - Improve upon the physics of the game by introducing and perfecting collision boxes. Additionally, alter the player sprite's jump animation and other characteristics.
+Iteration 3 - Introduce items which can be collected by the player to improve their score.
+
 ## Attributions
 
-The first iteration of this project includes graphics that are not my own, which I have resized and altered to suit this project's dimensions and characteristics, to serve as reference models. These graphics will be replaced with my own, with graphics I have purchased, or with royalty-free/public domain assets. The original graphics were created by the following talented artists:
+The first iteration of this project includes graphics that are not my own, which I have resized and altered to suit this project's dimensions and characteristics, to serve as reference models. These graphics will be replaced with my own, with graphics I  have purchased, or with royalty-free/public domain assets. These graphics are by the following artists. 
 
 - Player Sprite by Melissa Lam
   - Artstation: [Melissa Lam - Player Sprite](https://melissalam.artstation.com/projects/e0JnxZ)
@@ -23,7 +28,7 @@ The first iteration of this project includes graphics that are not my own, which
 - Parallax Background by FellFeline
   - DeviantArt: [FellFeline - Parallax Background](https://www.deviantart.com/fellfeline/gallery)
 
-Please make sure to check out their portfolios and support their work!
+If you liked the graphics in this "bare bones" iteration, be sure to check out their portfolios and support their work.
 
 ## How to Play
 

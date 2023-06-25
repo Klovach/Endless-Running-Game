@@ -31,6 +31,6 @@ If you liked the graphics in this "bare bones" iteration, be sure to check out t
 ## How to Play
 
 - Press play to begin running.
-- -Click anywhere on the screen to jump. 
+- Click anywhere on the screen to jump. 
 - Avoid the enemies and, in future iterations, collect power-ups to increase your score.
-- Survive as long as possible and try to beat your high score!
+- Survive as long as possible and try to beat your high score.

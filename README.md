@@ -15,7 +15,7 @@ Iteration 3 - Introduce items which can be collected by the player to improve th
 
 ## Attributions
 
-The first iteration of this project includes graphics that are not my own, which I have resized and altered to suit this project's dimensions and characteristics, to serve as reference models. These graphics will be replaced with my own, with graphics I  have purchased, or with royalty-free/public domain assets. These graphics are by the following artists. 
+The first iteration of this project includes graphics that are not my own, which I have resized and altered to suit this project's dimensions and characteristics, to serve as temporary reference models. These graphics will be replaced with my own, with graphics I  have purchased, or with royalty-free/public domain assets. These graphics are by the following artists. 
 
 - Player Sprite by Melissa Lam
   - Artstation: [Melissa Lam - Player Sprite](https://melissalam.artstation.com/projects/e0JnxZ)

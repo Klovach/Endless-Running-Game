@@ -9,13 +9,16 @@ In this project, the study objectives are to learn how to implement basic game m
 all while using JavaScript, HTML, and CSS.
 
 ## Project Objectives
-Iteration 1 - Introduce a player sprite, an enemy sprite, a parallax background, and a basic menu. Ensure the player can jump and that the player can start and end the game at will.
-Iteration 2 - Improve upon the physics of the game by introducing and perfecting collision boxes. Additionally, alter the player sprite's jump animation and other characteristics.
-Iteration 3 - Introduce items which can be collected by the player to improve their score.
+- Iteration 1
+   - Introduce a player sprite, an enemy sprite, a parallax background, and a basic menu. Ensure the player can jump and that the player can start and end the game at will.
+- Iteration 2
+  - Improve upon the physics of the game by introducing and perfecting collision boxes. Additionally, alter the player sprite's jump animation and other characteristics.
+- Iteration 3
+  - Introduce items which can be collected by the player to improve their score.
 
 ## Attributions
 
-The first iteration of this project includes graphics that are not my own, which I have resized and altered to suit this project's dimensions and characteristics, to serve as temporary reference models. These graphics will be replaced with my own, with graphics I  have purchased, or with royalty-free/public domain assets. These graphics are by the following artists. 
+The first iteration of this project includes graphics that are not my own, which I have resized and altered to suit this project's dimensions and characteristics, to serve as temporary reference models. These graphics will be swiftly replaced with my own, with graphics I  have purchased, or with royalty-free/public domain assets. These graphics are by the following artists. 
 
 - Player Sprite by Melissa Lam
   - Artstation: [Melissa Lam - Player Sprite](https://melissalam.artstation.com/projects/e0JnxZ)
